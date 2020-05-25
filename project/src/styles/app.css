@@ -1,0 +1,48 @@
+html,
+body,
+.app {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background: var(--bodyBgColor);
+  overflow: hidden;
+}
+
+#root {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#root:before {
+  content: "";
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.05;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 1s linear;
+  background-image: url('https://i.imgur.com/4gglm2J.jpg');
+}
+
+#cy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+}
+
+a {
+  color: rgb(140, 203, 255);
+}
