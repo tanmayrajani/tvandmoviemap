@@ -1,0 +1,71 @@
+.app-node-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--panelBgColor);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 1);
+  z-index: 10;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  font-size: 0.8em;
+  color: #fff;
+  font-family: monospace;
+}
+
+@media only screen and (min-width: 600px) {
+  .app-node-info {
+    zoom: 1.3;
+  }
+}
+
+.node-info-name {
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+.node-info-more {
+  margin-top: 0.15em;
+}
+
+.node-info-type {
+  font-size: 0.8em;
+  color: #AAA;
+  float: right;
+  margin-left: 1em;
+  color: black;
+  background-color: lawngreen;
+  padding: 0 0.3em;
+  border-radius: 1em;
+}
+
+.node-info-genres {
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
+}
+
+.node-realted-title-reason {
+  font-style: italic;
+  color: #AAA;
+  font-size: 0.7em;
+  margin-left: 1.4em;
+  vertical-align: middle;
+}
+
+.node-info-click-toggle {
+  padding: 0.2em 0.4em;
+  margin-top: 0.4em;
+  cursor: pointer;
+  min-width: 12em;
+  background: black;
+}
+.node-info-expand {
+  float: right;
+}
+.node-related-title {
+  margin: 0.3em 0.4em
+}
+
+.node-info-related {
+  margin-top: 0.8em;
+}
